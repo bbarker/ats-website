@@ -1,0 +1,41 @@
+
+body {
+  background-color: white;
+  color: black;
+  font: Helvetica, Arial, sans-serif;
+}
+
+body, .site {
+  display: flex;
+  flex-direction: column;
+  -webkit-display: flex;
+  -webkit-flex-direction: column;
+}
+
+.site { text-align: justify; }
+.site {
+  max-width: 42em;
+  text-align: justify;
+  align-self: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  align-self: center;
+  -webkit-align-self: center;
+}
+
+a         { color: #00a; }
+a:visited { color: #a0a; }
+
+a:hover, .title a:hover {
+  color: black;
+}
+
+.title a {
+  color: #a00;
+  text-decoration: none;
+}
+
+a, .title {
+  text-decoration: none;
+}
